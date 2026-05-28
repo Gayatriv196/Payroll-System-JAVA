@@ -51,7 +51,7 @@ public class Login extends JFrame implements ActionListener {
         try {
             Conn c1 = new Conn();
             String u = textField.getText();
-            String v = passField.getPassword();
+            String v = String.valueOf(passField.getPassword());
 
             String q = "select * from login where username='" + u + "' and password='" + v + "'";
 

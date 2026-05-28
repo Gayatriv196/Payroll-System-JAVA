@@ -1,0 +1,24 @@
+# NetBeans
+nbproject/private/
+build/
+dist/
+.DS_Store
+
+# Compiled class files
+*.class
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Config with credentials
+config.properties
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
